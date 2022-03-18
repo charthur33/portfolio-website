@@ -1,0 +1,45 @@
+
+header {
+    display: flex;
+    background-color: grey;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: 400;
+    align-self: center;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.name {
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    align-self: center;
+}
+
+.nav-item:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.about {
+    background-color: aqua;
+    height: 2000px;
+}
