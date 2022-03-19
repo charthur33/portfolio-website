@@ -1,7 +1,12 @@
 
+#project-section {
+    height: 100vh;
+    z-index: -1;
+    display: block;
+}
+
 .projects {
     background-color: red;
-    height: 1000px;
 }
 
 .project {
@@ -12,5 +17,5 @@
 
 .resume {
     background-color: greenyellow;
-    height: 1000px;
+    height: 100vh;
 }
