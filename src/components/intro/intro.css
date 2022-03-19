@@ -1,4 +1,5 @@
 
+/************HEADER******************/
 header {
     display: flex;
     background-color: grey;
@@ -18,26 +19,47 @@ header h1 {
 
 .name {
     font-family: 'Marck Script', cursive;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
+
+/**************** NAVBAR *******************/
 
 .navbar {
-    display: flex;
-    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: grey;
+    padding: 0;
     margin-right: 50px;
+    text-transform: uppercase;
 }
 
-.nav-item {
-    padding: 0 15px;
-    font-size: 1.2rem;
+.nav-link {
+    cursor: pointer;
     color: #fff;
     align-self: center;
 }
 
-.nav-item:hover {
-    color: lightblue;
-    cursor: pointer;
+.navbar p {
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-right: 8px;
 }
+
+.navbar-toggler {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.navbar-toggler i {
+    padding-left: 6px;
+}
+
+
+
+/***********ABOUT ********************/
 
 .about {
     background-color: aqua;

@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <footer>
-            <p>© Copyright {currentYear}</p>
+            <p>Copyright © Chris Arthur {currentYear}</p>
         </footer>
     );
 }

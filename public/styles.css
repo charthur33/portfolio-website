@@ -9,11 +9,8 @@ html {
   height: 100%;
 }
 
-.container {
-  position: relative;
-  height: 100%;
-  box-sizing: border-box;
-  padding-bottom: 100px;
+.container-fluid {
+  padding: 7% 10%;
 }
 
  
