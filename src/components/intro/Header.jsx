@@ -7,7 +7,7 @@ function Header() {
         <header>
             
             <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="#about-section">Chris Arthur</a>
+            <a className="navbar-brand" href="/">Chris Arthur</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         Menu 
                         <i className="fa-solid fa-bars"> </i>

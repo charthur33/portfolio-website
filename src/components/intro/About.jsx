@@ -7,9 +7,9 @@ function About() {
         <section id="about-section">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6 about">
+                    <div className="col-md-6 title">
                         <div className="intro-wrapper">
-                            <h2 className="intro-text">Hello, My name is</h2>
+                            <h2 className="intro-text">Hello, my name is</h2>
                             <h1 className="i-name">Chris Arthur</h1>
                             <div className="i-title">
                                 <div className="i-title-wrapper">
