@@ -26,6 +26,9 @@ function About() {
                         <img className="pic" src={chrisPic} alt="profile pic"></img>
                         
                         <div className="container-fluid about-me-text">
+                            <div className="about-me-title">
+                                <h2>ABOUT</h2>
+                            </div>
                             <p>I'm an embedded systems engineer currently transistioning to the world of cloud-based software applications and full-stack development.
                                 I'm passionate about technologies that improve the lives of ordinary people and I have broad experience in large-scale product development and verification. I also have a proven track record of team building
                                 and fostering cross-organizational relationships in order to effectively solve difficult problems. In my free time you will most likely find me 

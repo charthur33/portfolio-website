@@ -75,7 +75,7 @@ header {
     background-color: #E4F9F5;
     padding-top: 1%;
     padding-bottom: 30px;
-    height: 100vh;
+    height: 130vh;
 }
 
 .title {
@@ -167,23 +167,37 @@ header {
     margin-top: 10px;
     border-radius: 30px;
     display: block;
+    text-align: center;
 }
 
 .about-me-text p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #40514E; 
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 400;
 }
 
-@media (max-width: 700px) {
+.about-me-title {
+    margin-bottom: 10px;
+}
+
+.about-me-title h2 {
+    color: #40514E;
+}
+
+@media (max-width: 900px) {
     #about-section {
-        height: 1800px;
+        height: 1500px;
     }
     .i-title-item {
         font-size: 1.7rem;
     }
     .about-me-text p {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #about-section {
+        height: 1000px;
     }
 }
