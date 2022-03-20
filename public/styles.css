@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+section {
+  width: 100%;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   height: 100%;
 }
 
 .container-fluid {
+  display: block;
   padding: 7% 10%;
 }
 

@@ -73,10 +73,9 @@ header {
 
 #about-section {
     background-color: #E4F9F5;
-    z-index: -1;
-    display: flex;
     padding-top: 1%;
-    flex-direction: column;
+    padding-bottom: 30px;
+    height: 100vh;
 }
 
 .title {
@@ -103,6 +102,7 @@ header {
     height: auto;
     border: solid 4px #30E3CA;
     border-radius: 70%;
+    margin-top: 10px;
 }
 
 .intro-text {
@@ -159,5 +159,31 @@ header {
     }
     100% {
         tranform: translateY(-350px);
+    }
+}
+
+.about-me-text {
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: block;
+}
+
+.about-me-text p {
+    font-size: 1.2rem;
+    color: #40514E; 
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    #about-section {
+        height: 1800px;
+    }
+    .i-title-item {
+        font-size: 1.7rem;
+    }
+    .about-me-text p {
+        font-size: 1.1rem;
     }
 }

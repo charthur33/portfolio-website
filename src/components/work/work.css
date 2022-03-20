@@ -1,12 +1,14 @@
 
+/***********PROJECTS ***************/
+
 #project-section {
+    background-color: #15f0c8;
+    padding-top: 1%;
     height: 100vh;
-    z-index: -1;
-    display: block;
 }
 
 .projects {
-    background-color: red;
+    /* background-color: red; */
 }
 
 .project {
@@ -14,6 +16,8 @@
     width: 400px;
     background-color: blueviolet;
 }
+
+/************RESUME ***********/
 
 .resume {
     background-color: greenyellow;
