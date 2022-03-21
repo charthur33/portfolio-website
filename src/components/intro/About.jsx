@@ -13,8 +13,8 @@ function About() {
                             <h1 className="i-name">Chris Arthur</h1>
                             <div className="i-title">
                                 <div className="i-title-wrapper">
-                                    <div className="i-title-item">Engineer</div>
-                                    <div className="i-title-item">Software Developer</div>
+                                    <div className="i-title-item">Electrical Engineer</div>
+                                    <div className="i-title-item">Full-Stack Developer</div>
                                     <div className="i-title-item">Team Builder</div>
                                     <div className="i-title-item">Product Designer</div>
                                     <div className="i-title-item">Creative Generalist</div>
@@ -27,7 +27,7 @@ function About() {
                         
                         <div className="container-fluid about-me-text">
                             <div className="about-me-title">
-                                <h2>ABOUT</h2>
+                                <h2>My Background</h2>
                             </div>
                             <p>I'm an embedded systems engineer currently transistioning to the world of cloud-based software applications and full-stack development.
                                 I'm passionate about technologies that improve the lives of ordinary people and I have broad experience in large-scale product development and verification. I also have a proven track record of team building

@@ -2,25 +2,41 @@
 /***********PROJECTS ***************/
 
 #project-section {
-    background-color: #15f0c8;
+    background-color: #11999E;
     padding-top: 1%;
     height: 100vh;
     text-align: center;
 }
 
-.projects {
-    /* background-color: red; */
+.project-section-title h1 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.project-section-title p {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
 }
 
 .project {
-    height: 400px;
-    width: 400px;
-    background-color: blueviolet;
+    height: 500px;
+    width: 500px;
+    align-self: center;
 }
+
 
 /************RESUME ***********/
 
-.resume {
-    background-color: greenyellow;
+#resume-section {
+    background-color: #E4F9F5;
     height: 100vh;
 }

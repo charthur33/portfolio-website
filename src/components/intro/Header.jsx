@@ -21,17 +21,17 @@ function Header() {
                             >About</p>
                             <p className="nav-link" id="projects" onClick={() => {
                                 const anchor = document.querySelector("#project-section");
-                                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
                             }}
                             >Projects</p>
                             <p className="nav-link" id="resume" onClick={() => {
                                 const anchor = document.querySelector("#resume-section");
-                                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
                             }}
                             >Resume</p>
                             <p className="nav-link" id="contact" onClick={() => {
                                 const anchor = document.querySelector("#contact-section");
-                                anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
                             }}
                             >Contact</p>
 
