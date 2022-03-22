@@ -4,7 +4,7 @@
 #project-section {
     background-color: #11999E;
     padding-top: 1%;
-    height: 100vh;
+    height: 130vh;
     text-align: center;
 }
 
@@ -32,6 +32,32 @@
     width: 500px;
     align-self: center;
 }
+
+.project-info {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(218, 218, 218, 0.418);
+}
+
+.project-info .btn {
+    margin-right: 5px;
+}
+
+.tech-text {
+    font-size: 0.8rem;
+    margin: 15px 0;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    margin: 2% 0;
+}
+
+.card-img {
+    border: 2px solid rgba(107, 107, 107, 0.418);
+}
+
 
 
 /************RESUME ***********/
