@@ -22,17 +22,15 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 profile-pic">
-                        <img className="pic" src={chrisPic} alt="profile pic"></img>
-                        
+                    <div className="col-lg-6 profile-pic-wrapper">
+                        <img className="profile-pic" src={chrisPic} alt="profile pic"></img>
                         <div className="container-fluid about-me-text">
                             <div className="about-me-title">
                                 <h2>My Background</h2>
                             </div>
-                            <p>I'm an embedded systems engineer currently transistioning to the world of cloud-based software applications and full-stack development.
-                                I'm passionate about technologies that improve the lives of ordinary people and I have broad experience in large-scale product development and verification. I also have a proven track record of team building
-                                and fostering cross-organizational relationships in order to effectively solve difficult problems. In my free time you will most likely find me 
-                                playing music, partaking in extreme outdoor sports, or enjoying the occasional afternoon at a craft brewery. Please find some of my recent projects and contact information below. 
+                            <p>I'm an embedded systems engineer currently transistioning to working on cloud-based software and full-stack applications.
+                                I recently compeleted a full-stack development bootcamp and am looking for opportunites to apply my skills on new technologies that improve peoples' lives. In my free time you will most likely find me 
+                                playing music, partaking in extreme outdoor sports, or enjoying the occasional Sunday afternoon at a craft brewery. Please find some of my recent projects and contact information below. 
                             </p>
                         </div>
                     </div>
