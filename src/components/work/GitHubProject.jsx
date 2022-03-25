@@ -13,8 +13,8 @@ function GitHubProject(props) {
                     <div className="project-info">
                         <p className="card-text">{props.description}</p>
                         <p className="tech-text">{props.technologies}</p>
-                        <a href={props.code} class="btn btn-secondary">Code</a>
-                        <a href={props.application} class="btn btn-secondary">Deployed App</a>
+                        <a href={props.application} class="btn g-project-btn">Deployed App</a>
+                        <a href={props.code} class="btn g-project-btn">Code</a>
                     </div>
                 </div>
             </div>

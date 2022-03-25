@@ -13,10 +13,10 @@ function About() {
                             <h1 className="i-name">Chris Arthur</h1>
                             <div className="i-title">
                                 <div className="i-title-wrapper">
-                                    <div className="i-title-item">Electrical Engineer</div>
                                     <div className="i-title-item">Full-Stack Developer</div>
+                                    <div className="i-title-item">Electrical Designer</div>
                                     <div className="i-title-item">Team Builder</div>
-                                    <div className="i-title-item">Product Designer</div>
+                                    <div className="i-title-item">Product Developer</div>
                                     <div className="i-title-item">Creative Generalist</div>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@ function About() {
                                 <h2>My Background</h2>
                             </div>
                             <p>I'm an embedded systems engineer currently transistioning to working on cloud-based software and full-stack applications.
-                                I recently compeleted a full-stack development bootcamp and am looking for opportunites to apply my skills on new technologies that improve peoples' lives. In my free time you will most likely find me 
+                                I recently compeleted a full-stack development bootcamp and am looking for opportunites to apply my skills on building innovative products that improve peoples' lives. In my free time you will most likely find me 
                                 playing music, partaking in extreme outdoor sports, or enjoying the occasional Sunday afternoon at a craft brewery. Please find some of my recent projects and contact information below. 
                             </p>
                         </div>

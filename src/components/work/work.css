@@ -4,14 +4,20 @@
 #project-section {
     background-color: #11999E;
     padding-top: 1%;
-    height: 130vh;
+    height: 1300px;
     text-align: center;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+.project-section-title {
+    margin-bottom: 50px;
 }
 
 .project-section-title h1 {
     color: #fff;
-    margin-top: 50px;
-    margin-bottom: 15px;
     font-size: 3.5rem;
     text-transform: uppercase;
 }
@@ -25,7 +31,8 @@
 .project-grid {
     display: flex;
     justify-content: center;
-}
+    margin-top: 50px;
+} 
 
 .project {
     height: 500px;
@@ -34,9 +41,10 @@
 }
 
 .project-info {
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     background-color: rgba(218, 218, 218, 0.418);
 }
 
@@ -47,6 +55,7 @@
 .tech-text {
     font-size: 0.8rem;
     margin: 15px 0;
+    padding: 0 10px;
 }
 
 .card-text {
@@ -58,11 +67,82 @@
     border: 2px solid rgba(107, 107, 107, 0.418);
 }
 
+.g-project-btn {
+    background-color: #ffa43b;
+    color: #fff;
+    font-weight: 500;
+    width: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 3px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0px 3.5px 0px #ca781a;
+    -moz-box-shadow: 0px 3.5px 0px #ca781a;
+    box-shadow: 0px 3.5px 0px #ca781a;
+}
 
+.g-project-btn:focus {
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+    background-color: #ffa43b;
+    border: none;
+    border-radius: 3px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0px 3.5px 0px #ca781a;
+    -moz-box-shadow: 0px 3.5px 0px #ca781a;
+    box-shadow: 0px 3.5px 0px #ca781a;
+}
 
-/************RESUME ***********/
+.g-project-btn:hover {
+    background-color: #ec8c1e;
+    color: #fff;
+}
 
-#resume-section {
+.g-project-btn:active{
+    -webkit-box-shadow: 0px 1px 0px #ca781a;
+    -moz-box-shadow: 0px 1px 0px #ca781a;
+    box-shadow: 0px 1px 0px #ca781a;
+    position:relative;
+    top:4px;
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    width: 1300px;
+}
+
+.e-project-img {
+    width: 1000px;
+}
+
+/************SKILLS ***********/
+
+#skills-section {
     background-color: #E4F9F5;
     height: 100vh;
+}
+
+@media (max-width: 1300px) {
+    .e-project-img {
+        width: 100%;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #project-section {
+        height: 1800px;
+    }
 }
