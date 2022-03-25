@@ -1,18 +1,63 @@
 
 footer {
-    height: 50px;
-    text-align: center;
-    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffa33bdc;
+}
+
+footer p {
+    align-self: center;
+    margin: 0;
 }
 
 .contact {
-    background-color: yellow;
-    
+    background-color: #11999E;
+    background-image: url("../../images/gplay.png");
+    height: 300px; 
+    z-index: -1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-title {
+    background-color: #11999e00;
+    margin-bottom: -3.5rem;
+}
+.contact-title h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: relative;
+    top: 30px;
+}
+
+.contact i {
+    align-self: center;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.contact a {
+    align-self: center;
+}
+
+.contact i:hover {
+    color: #30E3CA;
+    cursor: pointer;
 }
 
 #contact-section {
-    height: 35vh;
-    z-index: -1;
-    background-color: #11999E;
+    padding-top: 250px;
+    height: 800px;
+    z-index: -2;
+    background-color: #E4F9F5;
     display: block;
+    text-align: center;
 }
+

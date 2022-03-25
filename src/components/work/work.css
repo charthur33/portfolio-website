@@ -3,8 +3,9 @@
 
 #project-section {
     background-color: #11999E;
+    background-image: url("../../images/project-paper.png");
     padding-top: 1%;
-    height: 1300px;
+    height: 1700px;
     text-align: center;
 }
 
@@ -125,13 +126,6 @@
     width: 1000px;
 }
 
-/************SKILLS ***********/
-
-#skills-section {
-    background-color: #E4F9F5;
-    height: 100vh;
-}
-
 @media (max-width: 1300px) {
     .e-project-img {
         width: 100%;
@@ -143,6 +137,6 @@
 
 @media (max-width: 1000px) {
     #project-section {
-        height: 1800px;
+        height: 2200px;
     }
 }
