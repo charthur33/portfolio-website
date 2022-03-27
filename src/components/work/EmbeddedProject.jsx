@@ -26,6 +26,7 @@ function EmbeddedProject(props) {
                                     <div class="modal-body">
                                         <img src={props.projectImg} className="e-project-img" alt="personal project"></img>
                                         <img src={props.projectImg2} className="e-project-img" alt="personal project"></img>
+                                        <img src={props.projectImg3} className="e-project-img" alt="personal project"></img>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn g-project-btn" data-bs-dismiss="modal">Close</button>

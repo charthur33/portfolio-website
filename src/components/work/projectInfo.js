@@ -19,7 +19,7 @@ const gitHubProjects = [
 const otherProjects = [
     {
         title:"Custom Keyboard/Synthesizer",
-        description:"BSEE Embedded Systems Capstone project to design an affordable, MIDI-capable music keyboard/synthesizer using clever engineering and an arduino mega.",
+        description:"BSEE Embedded Systems Capstone project to design a custom MIDI-capable music keyboard/synthesizer using clever engineering and an arduino mega.",
         projectTitle:"Upgraded MIDI-Capable Music Keyboard/Synthesizer"
     }
 ];

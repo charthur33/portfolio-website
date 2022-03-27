@@ -8,6 +8,7 @@ import spgImg from "../../images/spg-moto.PNG";
 import keyboard1 from "../../images/keyboard1.PNG";
 import keyboardProject from "../../images/keyboardProject.PNG";
 import keyboardProject2 from "../../images/keyboardProject2.PNG";
+import keyboardProject3 from "../../images/keyboardProject3.PNG";
 import capstoneCode from "../other/CapstoneCode.pdf";
 
 function ProjectSection() {
@@ -50,6 +51,7 @@ function ProjectSection() {
                             img={keyboard1}
                             projectImg={keyboardProject}
                             projectImg2={keyboardProject2}
+                            projectImg3={keyboardProject3}
                             fileLink={capstoneCode}
                         />
                     </div>
