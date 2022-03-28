@@ -28,8 +28,8 @@ function About() {
                             <div className="about-me-title">
                                 <h2>My Background</h2>
                             </div>
-                            <p>I'm an embedded systems engineer currently transistioning to working on cloud-based software and full-stack applications.
-                                I recently compeleted a full-stack development bootcamp and am looking for opportunites to apply my skills on building innovative products that improve peoples' lives. In my free time you will most likely find me 
+                            <p>I'm an embedded systems engineer currently transitioning to working on cloud-based software and full-stack applications.
+                                I recently completed a full-stack development bootcamp and am looking for professional opportunites to build innovative products that improve people's lives. In my free time you will most likely find me 
                                 playing music, partaking in extreme outdoor sports, or enjoying the occasional Sunday afternoon at a craft brewery. Please find some of my recent projects and contact information below. 
                             </p>
                         </div>
