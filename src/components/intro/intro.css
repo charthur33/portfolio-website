@@ -146,7 +146,7 @@ header {
 
 .i-title-wrapper {
     height: 100%;
-    animation: move 15s ease-in-out infinite alternate;
+    animation: move 17s ease-in-out infinite alternate;
 }
 
 @keyframes move {

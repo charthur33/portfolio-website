@@ -10,11 +10,13 @@
 }
 
 .row {
-    margin-bottom: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0; 
 }
 
 .project-section-title {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    margin-top: -20px;
 }
 
 .project-section-title h1 {
@@ -32,14 +34,16 @@
 .project-grid {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 } 
 
+/* .bottom */
+
 .project {
-    height: 500px;
-    width: 500px;
+    height: auto;
+    max-width: 550px;
     align-self: center;
-}
+    margin-top: 70px;
+} 
 
 .project-info {
     text-align: center;
@@ -138,5 +142,8 @@
 @media (max-width: 1000px) {
     #project-section {
         height: 2200px;
+    }
+    .project-section-title {
+        margin-top: 0;
     }
 }

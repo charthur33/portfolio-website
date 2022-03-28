@@ -43,7 +43,7 @@ function ProjectSection() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 project-grid">
+                    <div className="col-lg-12 project-grid bottom-row">
                         <EmbeddedProject
                             title={other[0].title}
                             description={other[0].description}
